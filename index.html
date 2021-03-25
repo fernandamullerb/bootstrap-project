@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/code.png" type="code/png"/>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+  <div class="bg-dark">
+  <!--navbar-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between shadow-lg">
+
+    <!-- logo -->
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Portfólio</a>
+    
+      <!-- links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="contacts.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <!--carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel/primeira.jpg" class="d-block w-100" alt="primeira">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desenvolvimento de Sistemas</h5>
+              <p>Desenvolvemos do frontend ao backend para traduzir a necessidade do seu negócio em sistemas inteligentes. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/segunda.jpg" class="d-block w-100" alt="segunda">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Programação Web</h5>
+              <p>Aplicações web em HTML, CSS, JavaScript, Node, APIs e Frameworks.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/terceira.jpg" class="d-block w-100" alt="terceira">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Gerenciamento de Projetos</h5>
+              <p>Análise de requisitos, gerenciamento e supervisão do processo de implementação dos sistemas.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Retornar</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <!--sobre nós-->
+    <div id="sobre" class="container text-center bg-dark sobre">
+      <div class="info mt-5">
+      <h3>Quem somos</h3>
+      <p><em> < We love code! /> </em></p>
+      <p>Estudantes do curso de Desenvolvimento de Sistemas no SENAI unidos por um único propósito: <br> Transformar o mundo através da tecnologia.</p>
+     </div>
+      <br><br>
+    <div class="row mb-5">
+      <div class="col-sm-4 profile">
+        <p class="text-center"><strong>Carlos</strong></p><br>
+          <img src="img/perfil/carlos.png" class="img-circle person" alt="Carlos" width="255" height="255">
+          <p>Estagiário em desenvolvimento web e desenvolvimento de sistemas no Senai.</p>
+      </div>
+      <div class="col-sm-4 profile">
+        <p class="text-center"><strong>Fernanda</strong></p><br>
+          <img src="img/perfil/fernanda.png" class="img-circle person" alt="Fernanda" width="255" height="255">
+          <p>Experiência no gerenciamento de projetos de inovação e de evolução de sistemas.</p>
+      </div>
+      <div class="col-sm-4 profile">
+        <p class="text-center"><strong>Leonardo</strong></p><br>
+          <img src="img/perfil/leonardo.png" class="img-circle person" alt="Leonardo" width="255" height="255">
+          <p>Cursa desenvolvimento de sistemas e se interessa pela atuação na área de hardwares.</p>
+      </div>
+    </div>
+      <div class="row d-flex justify-content-center ">
+      <div class="col-sm-4 profile">
+        <p class="text-center"><strong>Judson</strong></p><br>
+          <img src="img/perfil/judson.jpeg" class="img-circle person" alt="Judson" width="255" height="255">
+          <p>Entusiasta em eletrônica, hardware e redes de computadores.</p>
+      </div>
+      <div class="col-sm-4 profile">
+        <p class="text-center"><strong>Maicon</strong></p><br>
+          <img src="img/perfil/maicon.jpeg" class="img-circle person" alt="Maicon" width="255" height="255">
+          <p>Estudante de desenvolvimento de sistemas.</p>
+      </div>
+    </div>
+    <div class="mt-5 pb-5 mb-5">
+      <a href="projects.html"><button type="button" class="btn btn-outline-secondary btn-lg">Saiba Mais</button></a>
+    </div>
+  </div>
+
+   <!--footer-->
+   <footer class="text-center mt-2  footer bg-dark">
+    <p>Copyright © 2021</p> 
+  </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
