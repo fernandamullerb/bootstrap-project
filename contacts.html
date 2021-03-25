@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/code.png" type="code/png"/>
+    <link rel="stylesheet" href="estilos/style.css">
+  </head>
+
+<body class="bg-dark">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between shadow-lg">
+
+      <!-- logo -->
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Portfólio</a>
+      
+        <!-- links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacts.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--contato-->
+    <div class="text-center mt-5">
+      <h1>Contato</h1>
+      <p><p><em> < We love code! /> </em></p></p>
+    </div>
+    <div id="contato" class="container d-flex justify-content-center mt-5 border-5">
+      <div class="info d-flex justify-content-center flex-column">
+        <h3>Fale Conosco!</h3>
+        
+        <p>Deseja fazer um orçamento? Envie sua mensagem.</p>
+     </div>
+
+    <form action="" class="formulario mt-5">
+      <div class="row">
+        <div class="d-flex flex-column col-sm-6">
+          <div class="form-group">
+            <label for="usr">Nome:</label>
+            <input type="text" class="form-control" id="usr" name="username">
+          </div>
+          <div class="form-group">
+            <label for="pwd">E-mail:</label>
+            <input type="text" class="form-control" id="pwd" name="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Assunto:</label>
+            <input type="text" class="form-control" id="pwd" name="subject">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="pwd">Mensagem</label>
+            <textarea type="text" class="form-control"  name="message" rows="6">
+            </textarea>
+          </div>
+        </div>
+      </div>
+     
+      <button type="submit" class="btn btn-outline-light btn-lg mt-5" onclick = "confirmarEnvio();">Enviar</button>
+    </form>
+     
+</div>
+
+  <!--footer-->
+  <footer class="text-center mt-5 footer bg-dark">
+    <p>Copyright © 2021</p> 
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
